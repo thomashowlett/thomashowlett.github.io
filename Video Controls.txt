@@ -1,0 +1,7 @@
+video controls poster=thumbnail.png
+  			source src=movie.mp4 type=videomp4
+ 			source src=movie.ogg type=videoogg
+  			Your browser does not support the video tag.source type=videomp4 src=v.mp4video
+		br br br br 
+
+<p> View the Project Folio <a href="file:///C:/Users/thoma/Documents/Multimedia/CTRL%20-%20Folio%20(29092737).pdf">here!</a>

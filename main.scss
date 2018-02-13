@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(BG.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+@keyframes zoomIn {
+    0% {
+        margin-top: 12rem;
+        margin-bottom: -12rem;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 0rem;
+        margin-bottom: 0;
+        opacity: 1;
+    }
+}
+
+
+main {
+    width: 900px;
+    margin: auto;
+    background-color: #2F2F2F;
+    color: white;
+    min-height: 100%;
+    h1 {
+        margin: 0;
+        img {
+            width: 100%;
+        }
+        width: 900px;
+        text-align: justify;
+        font-family: 'Roboto Mono';
+        padding: 20px;
+        font-size: 360px;
+        line-height: 300px;
+        animation-name: zoomIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-duration: 0.5s;
+        animation-fill-mode:forwards;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+        width: 900px;
+        text-align: justify;
+        font-family: 'Roboto Mono';
+        padding: 20px;
+        font-size: 2.5rem;;
+        animation-name: zoomIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-duration: 0.5s;
+        animation-delay: 1s;
+        animation-fill-mode:forwards;
+    }
+    video {
+        margin: 0;
+        opacity: 0;
+        width: 900px;
+        text-align: justify;
+        font-family: 'Roboto Mono';
+        animation-name: zoomIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+        animation-duration: 0.5s;
+        animation-delay: 1.5s;
+        animation-fill-mode:forwards;
+  
+    }
+    
+
+}

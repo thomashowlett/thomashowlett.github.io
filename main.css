@@ -1,0 +1,111 @@
+/* line 1, /Users/alexanderedwards/Desktop/thomas/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, /Users/alexanderedwards/Desktop/thomas/main.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url(BG.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+@keyframes zoomIn {
+  0% {
+    margin-top: 12rem;
+    margin-bottom: -12rem;
+    opacity: 0; }
+  100% {
+    margin-top: 0rem;
+    margin-bottom: 0;
+    opacity: 1; } }
+
+/* line 30, /Users/alexanderedwards/Desktop/thomas/main.scss */
+main {
+  width: 900px;
+  margin: auto;
+  background-color: #000000;
+  color: white;
+  min-height: 100%; }
+  /* line 36, /Users/alexanderedwards/Desktop/thomas/main.scss */
+  main h1 {
+    margin: 0;
+    width: 900px;
+    text-align: justify;
+    font-family: 'Roboto Mono';
+    padding: 20px;
+    font-size: 360px;
+    line-height: 300px;
+    animation-name: zoomIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; }
+    /* line 38, /Users/alexanderedwards/Desktop/thomas/main.scss */
+    main h1 img {
+      width: 100%; }
+  /* line 53, /Users/alexanderedwards/Desktop/thomas/main.scss */
+  main p {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    width: 900px,
+
+    font-family: 'Calibri';
+    padding: 20px;
+    font-size: 2.5rem;
+     letter-spacing: -2px;    text-align: center; font-family: 'Calibri';  animation-name: zoomIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; }
+  /* line 69, /Users/alexanderedwards/Desktop/thomas/main.scss */
+  main video {
+    margin: 0;
+    opacity: 0;
+    width: 9000px;
+    text-align: justify;
+    font-family: 'Roboto Mono';
+    animation-name: zoomIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards; }
+
+/*# sourceMappingURL=main.css.map */ 
+/* line 40, /Users/alexanderedwards/Desktop/thomas/main.scss */
+    main h1 img {
+      width: 100%; }
+  /* line 53, /Users/alexanderedwards/Desktop/thomas/main.scss */
+  main p {
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    width: 900px,
+
+    font-family: 'Calibri';
+    padding: 20px;
+    font-size: 1.5rem;
+     letter-spacing: -2px;    text-align: center; font-family: 'Calibri';  animation-name: zoomIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; }
+  /* line 69, /Users/alexanderedwards/Desktop/thomas/main.scss */
+  main video {
+    margin: 0;
+    opacity: 0;
+    width: 900px;
+    text-align: justify;
+    font-family: 'Roboto Mono';
+    animation-name: zoomIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards; }
