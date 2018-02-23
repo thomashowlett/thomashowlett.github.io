@@ -34,7 +34,7 @@ main {
     margin: 0;
     width: 900px;
     text-align: justify;
-    font-family: 'Calibri';
+    font-family: Calibr;
     padding: 20px;
     font-size: 360px;
     line-height: 300px;
@@ -56,7 +56,7 @@ main {
     font-family: 'Calibri';
     padding: 20px;
     font-size: 2.5rem;
-     letter-spacing: -2px;    text-align: center; font-family: 'Calibri';  animation-name: zoomIn;
+     letter-spacing: -2px;    text-align: center; font-family: Calibri;  animation-name: zoomIn;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 1s;
@@ -68,7 +68,7 @@ main {
     opacity: 0;
     width: 9000px;
     text-align: justify;
-    font-family: 'Calibri';
+    font-family: Calibri;
     animation-name: zoomIn;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
@@ -87,10 +87,10 @@ main {
     opacity: 0;
     width: 900px,
 
-    font-family: 'Calibri';
+    font-family: Calibri;
     padding: 20px;
     font-size: 1.5rem;
-     letter-spacing: -2px;    text-align: center; font-family: 'Calibri';  animation-name: zoomIn;
+     letter-spacing: -2px;    text-align: center; font-family: Calibri;  animation-name: zoomIn;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 1s;
@@ -102,7 +102,7 @@ main {
     opacity: 0;
     width: 900px;
     text-align: justify;
-    font-family: 'Calibri';
+    font-family: 'Calibri' ;
     animation-name: zoomIn;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
